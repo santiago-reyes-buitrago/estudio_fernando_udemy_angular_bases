@@ -13,8 +13,8 @@
            #txtPower
            placeholder="Poder:..."
            [value]="power()"
-           (change)="power.set(Number(txtPower.value))"
-           (input)="power.set(Number(txtPower.value))"
+           (change)="power.set(+txtPower.value)"
+           (input)="power.set(+txtPower.value)"
     />
     <button type="button" (click)="addCharacter()" class="mt-2 btn btn-primary">Agregar</button>
   </div>
