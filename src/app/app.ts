@@ -9,5 +9,5 @@ import {Navbar} from './components/shared/navbar/navbar';
   styleUrl: './app.css'
 })
 export class App {
-  protected title = 'bases';
+  protected title = '02-bases';
 }
